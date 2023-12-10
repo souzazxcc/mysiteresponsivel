@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor-principal: rgb(6, 79, 151);;
+}
+
+body {
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    font-family: Outfit;
+}
+
+.myname {
+    color: white;
+    font-weight: 400;
+    margin-left: 7rem;
+    margin-top: 2.5rem;
+}
+
+button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: white;
+    gap: 1rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.taman {
+    height: 1.3rem;
+}
+
+.direita {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-left: 90rem;
+    margin-top: -3.2rem;
+}
+
+h3 {
+    color: white;
+    margin-top: 12rem;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -1rem;
+    margin-left: 2rem;
+}
+
+#estrela {
+    display: flex;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 19rem;
+    margin-top: -6.85rem;
+}
+
+#estrela:hover {
+    transform: scale(1.2);
+}
+
+.verde {
+    background-color: rgb(39, 187, 39);
+    height: 0.3rem;
+    width: 5rem;
+    margin-left: 2.2rem;
+}
+
+p {
+    color: gray;
+    margin-left: 2.2rem;
+}
+
+.myimg {
+    height: 35rem;
+    margin-left: 70rem;
+    margin-top: -22rem;
+    border-radius: 20px;
+}
+
+#cnt {
+    height: 2.5rem;
+    width: 9rem;
+    background-color: rgb(53, 192, 127);
+    border-radius: 2px;
+    font-weight: 600;
+    color: #000;
+    margin-top: -12rem;
+    margin-left: 2.2rem;
+}
+
+#cnt:hover {
+    background-color: rgb(40, 146, 97);
+    transform: scale(1.05);
+}
+
+
+#oop {
+    height: 2.5rem;
+    width: 9rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-weight: 600;
+    color: #000;
+    margin-top: -2.5rem;
+    margin-left: 14rem;
+}
+
+#oop:hover {
+    background-color: rgb(196, 196, 196);
+    transform: scale(1.05);
+}
+
+footer {
+    display: flex;
+}
+
+#ht {
+    margin-top: 12rem;
+    margin-left: 8rem;
+}
+
+#htp {
+    margin-top: -4rem;
+}
+
+#cs {
+    margin-top: 11.8rem;
+    margin-left: 14rem;
+}
+
+#csp {
+    margin-top: -3.9rem;
+    margin-left: 6.7rem;
+}
+
+.htmll {
+    flex-direction: column;
+}
+
+.css {
+    flex-direction: column;
+}
+
+@media screen and ( min-width: 1920px) {
+    .myname {
+        margin-left: 3rem;
+    }
+    .direita  {
+        display: flex;
+        height: 1rem;
+        margin-left: 18rem;
+    }
+    h3 {
+        display: flex;
+        font-size: 10px;
+        margin-top: 3rem;
+    }
+    #eu {
+        font-size: 20px;
+        margin-top: -0.7rem;
+    }
+    .verde {
+        display: flex;
+        margin-top: 0.2rem;
+    }
+    #estrela  {
+        display: flex;
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-left: 11rem;
+        margin-top: -3.6rem;
+    }
+    p {
+        font-size: 8px;
+        width: 400px;
+    }
+    #cnt   {
+        display: flex;
+        height: 1.6rem;
+        margin-top: -0.5rem;
+        width: 8rem;    
+    }
+    #oop   {
+        display: flex;
+        height: 1.6rem;
+        width: 8rem;
+        margin-top: -1.6rem;
+        margin-left: 12rem;    
+    }
+    #ht {
+        font-size: 12px;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    #htp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: 3rem;
+    }
+    #cs {
+        font-size: 12px;
+        margin-top: 1rem;
+        margin-left: -10rem;
+    }
+    #csp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: -10rem;
+    }
+    .myimg {
+        display: flex;
+        height: 10rem;
+        margin-left: 30rem;
+       margin-top: -9rem;
+    }    
+}
+
+@media screen and ( min-width: 1440px) {
+    .myname {
+        margin-left: 3rem;
+    }
+    .direita  {
+        display: flex;
+        height: 1rem;
+        margin-left: 14rem;
+    }
+    h3 {
+        display: flex;
+        font-size: 10px;
+        margin-top: 3rem;
+    }
+    #eu {
+        font-size: 20px;
+        margin-top: -0.7rem;
+    }
+    .verde {
+        display: flex;
+        margin-top: 0.2rem;
+    }
+    #estrela  {
+        display: flex;
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-left: 11rem;
+        margin-top: -3.6rem;
+    }
+    p {
+        font-size: 8px;
+        width: 400px;
+    }
+    #cnt   {
+        display: flex;
+        height: 1.6rem;
+        margin-top: -0.5rem;
+        width: 8rem;    
+    }
+    #oop   {
+        display: flex;
+        height: 1.6rem;
+        width: 8rem;
+        margin-top: -1.6rem;
+        margin-left: 12rem;    
+    }
+    #ht {
+        font-size: 12px;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    #htp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: 3rem;
+    }
+    #cs {
+        font-size: 12px;
+        margin-top: 1rem;
+        margin-left: -10rem;
+    }
+    #csp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: -10rem;
+    }
+    .myimg {
+        display: flex;
+        height: 10rem;
+        margin-left: 28.5rem;
+       margin-top: -9rem;
+    }    
+}
+
+@media screen and ( min-width: 768px) {
+    .myname {
+        margin-left: 3rem;
+    }
+    .direita  {
+        display: flex;
+        height: 1rem;
+        margin-left: 17rem;
+    }
+    h3 {
+        display: flex;
+        font-size: 30px;
+        margin-top: 3rem;
+    }
+    #eu {
+        font-size: 50px;
+        margin-top: -1.7rem;
+    }
+    .verde {
+        display: flex;
+        margin-top: 0.2rem;
+    }
+    #estrela  {
+        display: flex;
+        height: 4rem;
+        width: 4em;
+        margin-left: 23.5rem;
+        margin-top: -8.8rem;
+    }
+    p {
+        font-size: 18px;
+        width: 400px;
+    }
+    #cnt   {
+        display: flex;
+        height: 2.3rem;
+        margin-top: 8.5rem;
+        width: 9rem;    
+    }
+    #oop   {
+        display: flex;
+        height: 2.3rem;
+        width: 9rem;
+        margin-top: -2.3rem;
+        margin-left: 12rem;    
+    }
+    #ht {
+        font-size: 20px;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    #htp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: 3rem;
+    }
+    #cs {
+        font-size: 20px;
+        margin-top: 9rem;
+        margin-left: -25rem;
+    }
+    #csp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: -25rem;
+    }
+    .myimg {
+        display: flex;
+        height: 15rem;
+        margin-left: 28.5rem;
+       margin-top: -22rem;
+    }
+}
+
+@media screen and ( min-width: 1024px) {
+    .myname {
+        margin-left: 3rem;
+    }
+    .direita  {
+        display: flex;
+        height: 1rem;
+        margin-left: 17rem;
+    }
+    h3 {
+        display: flex;
+        font-size: 30px;
+        margin-top: 3rem;
+    }
+    #eu {
+        font-size: 50px;
+        margin-top: -1.7rem;
+    }
+    .verde {
+        display: flex;
+        margin-top: 0.2rem;
+    }
+    #estrela  {
+        display: flex;
+        height: 4rem;
+        width: 4em;
+        margin-left: 23.5rem;
+        margin-top: -8.8rem;
+    }
+    p {
+        font-size: 18px;
+        width: 400px;
+    }
+    #cnt   {
+        display: flex;
+        height: 2.3rem;
+        margin-top: 8.5rem;
+        width: 9rem;    
+    }
+    #oop   {
+        display: flex;
+        height: 2.3rem;
+        width: 9rem;
+        margin-top: -2.3rem;
+        margin-left: 12rem;    
+    }
+    #ht {
+        font-size: 20px;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    #htp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: 3rem;
+    }
+    #cs {
+        font-size: 20px;
+        margin-top: 9rem;
+        margin-left: -25rem;
+    }
+    #csp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: -25rem;
+    }
+    .myimg {
+        display: flex;
+        height: 18rem;
+        margin-left: 36.5rem;
+       margin-top: -22rem;
+    }
+}
+
+@media screen and ( min-width: 375px) {
+    .myname {
+        margin-left: 3rem;
+    }
+    .direita  {
+        display: flex;
+        height: 1rem;
+        margin-left: 17rem;
+    }
+    h3 {
+        display: flex;
+        font-size: 30px;
+        margin-top: 3rem;
+    }
+    #eu {
+        font-size: 50px;
+        margin-top: -1.7rem;
+    }
+    .verde {
+        display: flex;
+        margin-top: 0.2rem;
+    }
+    #estrela  {
+        display: flex;
+        height: 4rem;
+        width: 4em;
+        margin-left: 23.5rem;
+        margin-top: -8.8rem;
+    }
+    p {
+        font-size: 18px;
+        width: 400px;
+    }
+    #cnt   {
+        display: flex;
+        height: 2.3rem;
+        margin-top: 8.5rem;
+        width: 9rem;    
+    }
+    #oop   {
+        display: flex;
+        height: 2.3rem;
+        width: 9rem;
+        margin-top: -2.3rem;
+        margin-left: 12rem;    
+    }
+    #ht {
+        font-size: 20px;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    #htp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: 3rem;
+    }
+    #cs {
+        font-size: 20px;
+        margin-top: 9rem;
+        margin-left: -25rem;
+    }
+    #csp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: -25rem;
+    }
+    .myimg {
+        display: flex;
+        height: 15rem;
+        margin-left: 26.5rem;
+       margin-top: -22rem;
+    }
+}
+
+@media screen and ( min-width: 360px) {
+    .myname {
+        margin-left: 3rem;
+    }
+    .direita  {
+        display: flex;
+        height: 1rem;
+        margin-left: 17rem;
+    }
+    h3 {
+        display: flex;
+        font-size: 30px;
+        margin-top: 3rem;
+    }
+    #eu {
+        font-size: 50px;
+        margin-top: -1.7rem;
+    }
+    .verde {
+        display: flex;
+        margin-top: 0.2rem;
+    }
+    #estrela  {
+        display: flex;
+        height: 4rem;
+        width: 4em;
+        margin-left: 23.5rem;
+        margin-top: -8.8rem;
+    }
+    p {
+        font-size: 18px;
+        width: 400px;
+    }
+    #cnt   {
+        display: flex;
+        height: 2.3rem;
+        margin-top: 8.5rem;
+        width: 9rem;    
+    }
+    #oop   {
+        display: flex;
+        height: 2.3rem;
+        width: 9rem;
+        margin-top: -2.3rem;
+        margin-left: 12rem;    
+    }
+    #ht {
+        font-size: 20px;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    #htp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: 3rem;
+    }
+    #cs {
+        font-size: 20px;
+        margin-top: 9rem;
+        margin-left: -25rem;
+    }
+    #csp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: -25rem;
+    }
+    .myimg {
+        display: flex;
+        height: 15rem;
+        margin-left: 28.5rem;
+       margin-top: -22rem;
+    }
+}
+
+@media screen and ( min-width: 280px) {
+    .myname {
+        margin-left: 3rem;
+    }
+    .direita  {
+        display: flex;
+        height: 1rem;
+        margin-left: 17rem;
+    }
+    h3 {
+        display: flex;
+        font-size: 30px;
+        margin-top: 3rem;
+    }
+    #eu {
+        font-size: 50px;
+        margin-top: -1.7rem;
+    }
+    .verde {
+        display: flex;
+        margin-top: 0.2rem;
+    }
+    #estrela  {
+        display: flex;
+        height: 4rem;
+        width: 4em;
+        margin-left: 23.5rem;
+        margin-top: -8.8rem;
+    }
+    p {
+        font-size: 18px;
+        width: 400px;
+    }
+    #cnt   {
+        display: flex;
+        height: 2.3rem;
+        margin-top: 8.5rem;
+        width: 9rem;    
+    }
+    #oop   {
+        display: flex;
+        height: 2.3rem;
+        width: 9rem;
+        margin-top: -2.3rem;
+        margin-left: 12rem;    
+    }
+    #ht {
+        font-size: 20px;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    #htp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: 3rem;
+    }
+    #cs {
+        font-size: 20px;
+        margin-top: 9rem;
+        margin-left: -25rem;
+    }
+    #csp {
+        display: flex;
+        margin-top: -1rem;
+        margin-left: -25rem;
+    }
+    .myimg {
+        display: flex;
+        height: 15rem;
+        margin-left: 28.5rem;
+       margin-top: -22rem;
+    }
+}
+
+.breve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.greenn  {
+    height: 200px;
+    background-color: green;
+    border: none;
+    font-family: Outfit;
+    color: white;
+}
